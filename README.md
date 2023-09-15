@@ -7,7 +7,7 @@
 <a href="https://abhinavs.github.io/moonwalk/">TRY THE DEMO</a>
 </h3>
 
-<a href="4.19.21 Word2Vec.pdf" target="_blank">PDF.</a>
+<embed src="4.19.21 Word2Vec.pdf" type="jc/pdf"/>
 
 ## Features
 * Light & dark mode with theme switcher
