@@ -1,5 +1,5 @@
-title: Moonwalk
-author: Abhinav Saxena
+title: Mark Nguyen
+author: Mark Nguyen
 url: https://www.abhinavsaxena.com/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
   Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
@@ -16,10 +16,10 @@ twitter:
 remote_theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "home.." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
+  appearance: "light" # can be "light", "dark" or "auto"
+  appearance_toggle: false # if appearance can be switched by user
+  back_home_text: "Home" # customize text for homepage link in post layout
+  date_format: "%m-%d-%y" # customize how date is formatted
   show_description: true # show blog description
   show_navbar: true # show horizontal navbar
   show_footer: true # show footer links in home page,add in _data/home.yml
