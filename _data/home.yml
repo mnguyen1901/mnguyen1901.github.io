@@ -2,7 +2,7 @@ navbar_entries:
   - title: About
     url: about
 
-  - title: Blog
+  - title: Projects
     url: blog
 
   - title: Journal Club
