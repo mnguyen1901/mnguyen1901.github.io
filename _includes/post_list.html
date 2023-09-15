@@ -1,12 +1,14 @@
 {% if site.posts.size > 0 %}
   <ul>
-    {% for x in site.posts %}
-      <li class="post-list-item">
-        <span class="home-date">
-          {{ x.date | date: site.theme_config.date_format }}»
-        </span>
-        <a href="{{ x.url | relative_url }}">{{ x.title }}</a>
-      </li>
+    {% for post in site.posts %}
+      {% if post.path contains 'blog' %}
+        <li class="post-list-item">
+          <span class="home-date">
+            {{ post.date | date: site.theme_config.date_format }}»
+          </span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}  
     {% endfor %}
   </ul>
 {% endif %}
