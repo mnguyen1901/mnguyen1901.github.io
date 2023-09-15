@@ -1,11 +1,11 @@
 {% if site.posts.size > 0 %}
   <ul>
-    {% for post in site.posts %}
+    {% for x in site.posts %}
       <li class="post-list-item">
         <span class="home-date">
-          {{ post.date | date: site.theme_config.date_format }}»
+          {{ x.date | date: site.theme_config.date_format }}»
         </span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ x.url | relative_url }}">{{ x.title }}</a>
       </li>
     {% endfor %}
   </ul>
