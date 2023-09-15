@@ -7,6 +7,8 @@
 <a href="https://abhinavs.github.io/moonwalk/">TRY THE DEMO</a>
 </h3>
 
+<a href="mnguyen1901.github.io/4.19.21 Word2Vec.pdf" target="_blank">PDF.</a>
+
 ## Features
 * Light & dark mode with theme switcher
 * Vertical list, horizontal list, card list
