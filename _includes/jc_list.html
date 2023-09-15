@@ -1,11 +1,6 @@
-debug testing
-
-{% if site.journalclub.size > 0 %}
+{% if site.posts.size > 0 %}
   <ul>
-    
-    test2
-    
-    {% for post in site.journalclub %}
+    {% for post in site.posts %}
       <li class="post-list-item">
         <span class="home-date">
           {{ post.date | date: site.theme_config.date_format }}»
