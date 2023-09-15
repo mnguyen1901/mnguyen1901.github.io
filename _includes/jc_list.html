@@ -1,11 +1,11 @@
 {% if site.journalclub.size > 0 %}
   <ul>
-    {% for presentation in site.journalclub %}
-      <li class="presentation-list-item">
+    {% for post in site.journalclub %}
+      <li class="post-list-item">
         <span class="home-date">
-          {{ presentation.date | date: site.theme_config.date_format }}»
+          {{ post.date | date: site.theme_config.date_format }}»
         </span>
-        <a href="{{ presentation.url | relative_url }}">{{ presentation.title }}</a>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
