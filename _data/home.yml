@@ -16,7 +16,8 @@ project_entries:
 
   - title: Project 2
     url: overview-post
-    desc: Projects are shown in card layout
+    desc: Machine learning models on textual incident reports from the radiation oncology department at the University of Washington
+    highlight: DRAFTING MANUSCRIPT
 
   - title: Project 3
     url: overview-post
