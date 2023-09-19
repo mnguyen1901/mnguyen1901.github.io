@@ -9,10 +9,10 @@ navbar_entries:
     url: journal-club
     
 project_entries:
-  - title: Project 1
+  - title: NCI research trends in Radiation Oncology
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
-    highlight: NEW
+    desc: This machine learning model is capable of parsing a large volume of medical abstracts to determine research topics and track funding trends over time.
+    highlight: SUBMITTING MANUSCRIPT
 
   - title: Project 2
     url: overview-post
