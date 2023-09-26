@@ -72,7 +72,7 @@ Now a table:
 
 ## Images
 
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
+![theme logo](images/Screenshot 2023-09-26 at 2.40.33 PM.png)
 
 This is an image[^4]
 
