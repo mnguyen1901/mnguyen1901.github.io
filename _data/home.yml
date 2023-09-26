@@ -15,12 +15,12 @@ project_entries:
     highlight: SUBMITTING
 
   - title: Project 2
-    url: overview-post
+    url: safety-report
     desc: Machine learning models on textual incident reports from the radiation oncology department at the University of Washington
     highlight: EDITING
 
   - title: Project 3
-    url: overview-post
+    url: breast-mammogram
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
