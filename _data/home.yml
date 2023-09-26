@@ -14,12 +14,12 @@ project_entries:
     desc: This machine learning model is capable of parsing a large volume of medical abstracts to determine research topics and track funding trends over time.
     highlight: SUBMITTING
 
-  - title: Screening Tool for Safety Reports in Radiation Oncology using NLP
+  - title: Radiation Oncology Safety Reports Screening using NLP
     url: safety-report
     desc: Machine learning models on textual incident reports from the radiation oncology department at the University of Washington
     highlight: DRAFTING
 
-  - title: Breast Cancer Detection using NLP
+  - title: Breast Cancer Detection using transformer models
     url: breast-mammogram
     desc: Can AI accurately interpret these mammograms? The concise answer is, yes. Here is how!
 
