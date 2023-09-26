@@ -50,6 +50,11 @@ Here is the output of the transformed data. We can add more transform functions 
 
 For this project, I use the vit 224 model implemented from huggingface.
 ```
+model_name_or_path = "google/vit-base-patch16-224-in21k"
+vit = vit2x(model_name_or_path, hidden_dropout_prob, attention_probs_dropout_prob, attention_heads, hidden_layers)
+```
+
+```
 class vit2x(nn.Module):
     def __init__(self, model_name, hidden_dropout_prob, attention_probs_dropout_prob, attention_heads, hidden_layers):
         super(vit2x, self).__init__()
@@ -80,4 +85,11 @@ class vit2x(nn.Module):
 
         return nn.Sigmoid()(outputs)
 ```
-
+```
+epochs = 30
+hidden_dropout_prob = 0.2
+attention_probs_dropout_prob = 0.2
+hidden_layers = 12
+attention_heads = 12
+lr = 1e-3
+```
