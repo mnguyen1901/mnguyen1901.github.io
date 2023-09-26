@@ -10,14 +10,14 @@ navbar_entries:
     
 project_entries:
   - title: NCI research trends in Radiation Oncology
-    url: overview-post
+    url: rad-clustering
     desc: This machine learning model is capable of parsing a large volume of medical abstracts to determine research topics and track funding trends over time.
-    highlight: SUBMITTING MANUSCRIPT
+    highlight: SUBMITTING
 
   - title: Project 2
     url: overview-post
     desc: Machine learning models on textual incident reports from the radiation oncology department at the University of Washington
-    highlight: DRAFTING MANUSCRIPT
+    highlight: EDITING
 
   - title: Project 3
     url: overview-post
