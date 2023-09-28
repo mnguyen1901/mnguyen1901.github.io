@@ -12,12 +12,11 @@ project_entries:
   - title: NCI research trends in Radiation Oncology
     url: rad-clustering
     desc: This machine learning model is capable of parsing a large volume of medical abstracts to determine research topics and track funding trends over time.
-    highlight: SUBMITTING
+    highlight: IN REVIEW
 
   - title: Radiation Oncology Safety Reports Screening using NLP
     url: safety-report
     desc: Machine learning models on textual incident reports from the radiation oncology department at the University of Washington
-    highlight: DRAFTING
 
   - title: Breast Cancer Detection using transformer models
     url: breast-mammogram
@@ -27,7 +26,7 @@ project_entries:
     url: overview-post
     desc: Can GPT4 understand medicine?
 
-  - title: Text Generation in NLP
+  - title: Text Generation in NLP                          
     url: overview-post
     desc: Introduction to text generation technique in NLP, from word encoding to letter encoding
 
