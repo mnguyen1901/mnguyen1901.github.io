@@ -26,7 +26,7 @@ project_entries:
     url: overview-post
     desc: Can GPT4 understand medicine?
 
-  - title: Text Generation in NLP                          
+  - title: Text Generation with natural language processing
     url: overview-post
     desc: Introduction to text generation technique in NLP, from word encoding to letter encoding
 
