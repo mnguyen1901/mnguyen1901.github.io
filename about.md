@@ -3,6 +3,6 @@ layout: post
 title: About
 ---
 
-I am a medical student by day and a full-time nerd by night. I have a clinical interest in Radiation Oncology and a research interest in medical machine-learning applications. Though most of my machine-learning projects are in natural language processing, I sometimes dabble in computer vision as well!
+My name is Mark Nguyen and I'm a fourth year medical student at UWSOM. By day, I'm diving into the world of medical studies. But when the sun goes down? I'm geeking out on medical machine learning. Most of my projects play around with natural language processing, but every now and then, I get curious and dabble in computer vision too!!!
 
-Email: son94@uw.edu
+**Email**: son94@uw.edu
