@@ -12,7 +12,7 @@ project_entries:
   - title: NCI research trends in Radiation Oncology
     url: rad-clustering
     desc: This machine learning model is capable of parsing a large volume of medical abstracts to determine research topics and track funding trends over time.
-    highlight: IN REVIEW
+    highlight: UNDER REVIEW
 
   - title: Radiation Oncology Safety Reports Screening using NLP
     url: safety-report
