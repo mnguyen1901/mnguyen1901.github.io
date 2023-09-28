@@ -25,11 +25,11 @@ project_entries:
 
   - title: Evaluating Large Language Model for medical Q&A
     url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+    desc: Can GPT4 understand medicine?
 
   - title: Text Generation in NLP
     url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
+    desc: Introduction to text generation technique in NLP, from word encoding to letter encoding
 
 old_project_entries:
   - title: Soopr
