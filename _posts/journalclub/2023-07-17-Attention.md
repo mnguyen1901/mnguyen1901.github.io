@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Su Xian
+author: Mark Nguyen
 tags: [presentation]
 ---
 
