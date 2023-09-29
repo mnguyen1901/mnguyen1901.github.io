@@ -20,7 +20,7 @@ project_entries:
 
   - title: Breast Cancer Detection using transformer models
     url: breast-mammogram
-    desc: Can AI accurately interpret these mammograms? The concise answer is, yes. Here is how!
+    desc: Can AI accurately interpret mammograms? The concise answer is, yes. Here is how!
 
   - title: Evaluating Large Language Model for medical Q&A
     url: overview-post
