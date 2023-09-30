@@ -3,13 +3,13 @@ layout: post
 ---
 
 # Introduction
-Can AI accurately interpret these mammograms? The concise answer is, yes, although its efficacy remains limited. Traditionally, machine learning has been categorized into NLP (Natural Language Processing) for textual data and vision-related tasks for images. For years, individual models have been developed for each type of task, but none were versatile enough to handle both NLP and vision challenges effectively. However, in 2021, a groundbreaking study demonstrated that an advanced NLP model could also be adapted for vision tasks. Motivated by this discovery, I decided to employ this approach in the 2022 [mammogram competition](https://www.kaggle.com/competitions/rsna-breast-cancer-detection). The aim of this competition is to determine the presence of breast cancer through mammograms and the dataset were labeled by radiologists at various institutions.
+Can AI accurately interpret mammograms? The concise answer is, yes, although its efficacy remains limited. Traditionally, machine learning has been categorized into NLP (Natural Language Processing) for textual data and vision-related tasks for images. For years, individual models have been developed for each type of task, but none were versatile enough to handle both NLP and vision challenges effectively. However, in 2021, a groundbreaking study demonstrated that an advanced NLP model could also be adapted for vision tasks. Motivated by this discovery, I decided to use this approach in the 2022 [mammogram competition](https://www.kaggle.com/competitions/rsna-breast-cancer-detection). The aim of this competition is to determine the presence of breast cancer through mammograms and the dataset were labeled by radiologists at various institutions.
 
 # Input
 ![sample_input](images/mammogram_input.png)
 
 ## Python
-Transform is an important function in preprocessing that can increase the "learning" of a model. It is just like how my attendings can ask me questions about a similar concept in different ways ("What is high blood pressure?" vs "What is hypertension?"). Similarly, by doing this you force the model to look at a breast mammogram in many different angles.
+Transform is an important function in preprocessing that can increase the "learning" of a model. It is just like how we can ask questions about a similar concept in different ways ("What is high blood pressure?" vs "What is hypertension?"). Similarly, by doing this you force the model to look at a breast mammogram in many different angles.
 ```
 data_transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
@@ -48,7 +48,7 @@ class TransformedDataset(Dataset):
 Here is the output of the transformed data. We can add more transform functions but that will increase the run time!
 ![transformed](images/mammogram_transformed.png)
 
-For this project, I use the vit 224 model implemented from huggingface.
+For this project, I used the vit 224 model implemented by huggingface.
 ```
 model_name_or_path = "google/vit-base-patch16-224-in21k"
 vit = vit2x(model_name_or_path, hidden_dropout_prob, attention_probs_dropout_prob, attention_heads, hidden_layers)
